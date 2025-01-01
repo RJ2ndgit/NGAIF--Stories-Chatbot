@@ -1,0 +1,49 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey or Hello or Hola"],
+     "responses": ["Hello", "Good to see you again", "Hey, what do you like to listen"]
+    },
+    {"tag": "welcome",
+     "patterns": ["How do I use this app?", "What's Next? "],
+     "responses": ["Say some keywords about which story you want to hear.", ""]
+    },
+    {"tag": "choose_category",
+     "patterns": [ "Tell me a fantasy story", "I want a horror story", "Can you tell a romance story?", "I’d like a mystery"],
+     "responses": [ "A fantasy story it is! Once upon a time, in a land of magic... (Story_url_shotcut_here)",
+                    "Brace yourself! Here's a terrifying horror story... (Story_url_shotcut_here)",
+                    "A romantic story is coming up! Two strangers meet by chance... (Story_url_shotcut_here)",
+                    "Let's dive into a mystery... A detective is called to solve a case no one else can crack. (Story_url_shotcut_here)"]
+    },
+    {"tag": "new_story",
+     "patterns": ["I want to hear a story", "Tell me a story", "Start a story", "I want to listen to a new story", "Suggest me something" ],
+     "responses": ["Sure! What type of story would you like? Fun, Mystery & Thriller or Sci-fi?", 
+                   "Great! What genre are you in the mood for? Horror or Love & Romance?", 
+                   "Let's begin! Which genre would you prefer— Comedy, Action or Fun ?"]
+    },
+    {"tag": "suggest",
+     "patterns": ["What story do you recommend?", "Can you suggest a story?", "Do you have any recommendations?", "What’s a good story?"],
+     "responses": ["How about a tale of adventure? It’s filled with twists and turns! (story_url)",
+                   "I recommend a magical fantasy story about a young wizard discovering their powers. (story_url)",
+                   "You might enjoy a detective story filled with suspense and mystery. (story_url)",
+                   "Here’s a lighthearted story about a mischievous cat and its adventures in the city. (story_url)"]
+    },
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey or Hello or Hola"],
+     "responses": ["Hello", "Good to see you again", "Hey, what do you like to listen"]
+    },
+    {"tag": "end",
+     "patterns": ["That’s enough for now", "Stop the story", "I want to end the story", "Let’s finish up"],
+     "responses": ["Got it! I'll stop the story here. Want to save your progress before you go?",
+                   "Story paused. We can wrap it up or continue later—your choice.",
+                   "Story ended. Feel free to come back anytime for a new adventure.",
+                   "Understood! Let me know when you’d like to hear more."]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "TY", "That was Helpful"],
+     "responses": ["My pleasure", "You're Welcome"]
+    }
+]}
